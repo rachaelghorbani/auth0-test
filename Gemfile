@@ -7,6 +7,8 @@ gem "jetpacker"
 
 # Include pg gem if you are using ActiveRecord, remove next line
 # and config/database.yml file if you are not
+gem 'auth0'
+gem 'omniauth-auth0', '2.6.0'
 gem "pg", "~> 1.2.3"
 
 gem "dynomite"

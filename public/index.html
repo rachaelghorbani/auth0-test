@@ -69,6 +69,18 @@
       <h1 class="title">Welcome and congrats!<br /> Jets is running.</h1>
     </header>
     <div class="intro">
+      <form action="/auth/auth0" method="post">
+        <input type="hidden" name="redirect_uri" value="/auth/auth0/callback">
+        <button type="submit">
+          Login
+        </button>
+      </form>
+      <form action="/auth/logout" method="get">
+        <input type="hidden">
+        <button type="submit">
+          Logout
+        </button>
+      </form>
       <p>
         To get started:
       </p>
